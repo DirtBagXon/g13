@@ -4,10 +4,11 @@
 
 Make sure you have boost and libusb-1.0 installed.
 
-### For Ubuntu (15.10)
+### For Ubuntu (20.04)
 
-* ***sudo apt-get install libusb-1.0-0-dev***
-* ***sudo apt-get install libboost-all-dev***
+```
+sudo apt-get install libusb-1.0-0-dev libboost-atomic1.71-dev libboost-chrono1.71-dev libboost-date-time1.71-dev libboost-filesystem1.71-dev libboost-program-options-dev libboost-program-options1.71-dev libboost1.71-dev libboost-log1.71-dev libboost-regex1.71-dev libboost-serialization1.71-dev libboost-system1.71-dev libboost-thread1.71-dev
+```
 
 
 ### Build
